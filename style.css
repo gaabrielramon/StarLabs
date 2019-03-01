@@ -1,0 +1,27 @@
+header {
+	background-color: rgb(50,50,50);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.listaheader a {
+	text-decoration: none;
+
+    color:white;
+    font-family: glacial indifferent bold;
+    font-size: 24px;
+    padding: 35px 25px;
+} 
+.listaheader li {
+	margin-top: 15px;
+    padding: 24px  5px;  
+    list-style: none;
+    transition: 2s;
+}
+.listaheader ul {
+	display: flex;
+     justify-content: center;
+  
+}
